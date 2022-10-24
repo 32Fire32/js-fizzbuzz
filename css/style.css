@@ -31,3 +31,15 @@ body {
     margin: 2px;
     font-size: 30px;
 }
+
+.fizz {
+    background-color: greenyellow;
+}
+
+.buzz {
+    background-color: orange;
+}
+
+.fizzbuzz {
+    background-color: red;
+}

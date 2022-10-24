@@ -17,12 +17,15 @@ for (let i = 1; i <= 100; i++) {
 
     if (i % 5 === 0 && i % 3 === 0) {
         containednumber.innerHTML = "fizzbuzz";
+        containednumber.classList.add("fizzbuzz");
 
     } else if (i % 5 === 0) {
         containednumber.innerHTML = "buzz";
+        containednumber.classList.add("buzz");
     
     } else if (i % 3 === 0 ) {
         containednumber.innerHTML = "fizz";
+        containednumber.classList.add ("fizz");
     }
 }
 

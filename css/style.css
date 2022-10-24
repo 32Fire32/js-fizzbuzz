@@ -21,19 +21,33 @@ body {
     margin: auto;
 }
 
+h1 {
+    margin: 30px 0;
+    font-size: 60px;
+}
+
 .number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color:rgb(39, 39, 145);
     border: 1px solid black;
     width: 150px;
     height: 150px;
-    text-align: center;
-    line-height: 150px;
-    margin: 2px;
+    margin: 3px;
     font-size: 30px;
+    border-radius: 30px;
+    transition: 1s;
+}
+
+.number:hover {
+    transform: scale(80%);
+    font-size: 100px;
+    color: gold;
 }
 
 .fizz {
-    background-color: greenyellow;
+    background-color: rgb(0, 175, 29);
 }
 
 .buzz {
